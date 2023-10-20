@@ -1,0 +1,56 @@
+@section('title')
+Galeri Warga
+@endsection
+@extends('templates.app')
+@section('content')
+<section class="background-colored">
+    <div id="particles-dots" class="particles"></div>
+    <div class="container">
+        <div class="heading-text text-light text-center">
+
+        </div>
+    </div>
+</section>
+<!-- end: Particle 1 -->
+<div class="container">
+    <h2 class="text-center mt-3">Gallery Warga</h2>
+    <div class="mb-5"></div>
+    <div class="row">
+        <div class="content col-lg-12">
+            <div data-animate="fadeInRight" data-animate-delay="50">
+                <!--Single image lightbox -->
+                @if ($gallery->count())
+                <div class=" row">
+                    @foreach ($gallery as $item)
+                    <div class="col-lg-4">
+                        <div class="grid-item">
+                            <div class="grid-item-wrap">
+                                <div class="grid-image" style="height:200px !important"> <img alt="Image Lightbox" class="rounded" src="/upload/{{ $item->image_name }}" />
+                                </div>
+                                <div class="grid-description">
+                                    <a data-lightbox="image" href="/upload/{{ $item->image_name }}" class="btn btn-light btn-roundeded">Zoom</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    @endforeach
+                </div>
+                @else
+                <div role="alert" class="alert alert-warning alert-dismissible">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"> </button>
+                    <strong><i class="fa fa-warning"></i> Belum ada image
+                </div>
+                @endif
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- <section id="page-content">
+    <div class="container">
+        <h2 class="text-center">Gallery Warga</h2>
+        <p></p>
+    </div>
+</section> -->
+<!-- end: Content -->
+@endsection
