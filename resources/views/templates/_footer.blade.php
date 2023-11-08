@@ -72,11 +72,14 @@
 <!--Template functions-->
 <script src="{{ asset('assets/js/functions.js') }}"></script>
 <script src="{{ asset('assets/plugins/particles/particles.js') }}" type="text/javascript"></script>
+<!-- Partical js base file  -->
+<script src="{{ asset('assets/plugins/particles/particles.js') }}" type="text/javascript"></script>
 <!--Particles-->
 <script src="{{ asset('assets/plugins/particles/particles-dots.js') }}" type="text/javascript"></script>
 <!--Particles stars-->
-<!--Infinite Scroll plugin files-->
-<!-- <script src="{{ asset('assets/plugins/metafizzy/infinite-scroll.min.js') }}"></script> -->
+<script src="{{ asset('assets/plugins/particles/particles-stars.js') }}" type="text/javascript"></script>
+<!--Particles bubbles-->
+<script src="{{ asset('assets/plugins/particles/particles-bubble.js') }}" type="text/javascript"></script>
 </body>
 
 </html>

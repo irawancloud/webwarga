@@ -70,7 +70,7 @@ class BlogController extends Controller
         // dd($input);
         Blog::create($input);
 
-        return redirect()->route('dashboard')->with('success', 'Berhasil menambahkan Artikel Baru');
+        return redirect()->route('home')->with('success', 'Berhasil menambahkan Artikel Baru');
     }
 
     /**

@@ -1,5 +1,5 @@
 @section('title')
-Hubungi Kami
+kontak
 @endsection
 @extends('templates.app')
 @section('content')
@@ -8,7 +8,7 @@ Hubungi Kami
     <div id="particles-dots" class="particles"></div>
     <div class="container">
         <div class="heading-text text-light text-center">
-
+            <h4 class="fw-600" style="text-shadow: 2px 2px black;">Hubungi Kami</h4>
         </div>
     </div>
 </section>

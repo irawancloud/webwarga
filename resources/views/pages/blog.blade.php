@@ -3,20 +3,32 @@ Blog Warga
 @endsection
 @extends('templates.app')
 @section('content')
+<section id="page-title">
+    <div class="container">
+        <div class="page-title">
+            <h1>Blog Warga Tenjo City Residence 3</h1>
+        </div>
+        <div class="breadcrumb">
+            <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Shortcodes</a> </li>
+                <li class="active"><a href="#">Particles</a> </li>
+            </ul>
+        </div>
+    </div>
+</section>
 <section id="page-content">
     <div class="container">
         <!-- post content -->
         <!-- Page title -->
         <div class="page-title">
-            <h1>Blog - Warga Tenjo City Tahap 3</h1>
-            <div class="breadcrumb float-left">
+            <h2 class="mb-4">Blog - Warga Tenjo City Tahap 3</h2>
+            <!-- <div class="breadcrumb float-left">
                 <ul>
                     <li><a href="{{ url('blog') }}">Home</a>
                     </li>
-                    <li><a href="{{ url('blogDetail') }}">Blog Detail</a>
-                    </li>
                 </ul>
-            </div>
+            </div> -->
         </div>
         <!-- end: Page title -->
         <!-- Blog -->

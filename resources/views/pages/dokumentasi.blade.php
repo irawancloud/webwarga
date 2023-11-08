@@ -3,18 +3,18 @@ Dokumentasi Warga
 @endsection
 @extends('templates.app')
 @section('content')
-<section class="background-colored">
-    <div id="particles-dots" class="particles"></div>
+<section style="background-color:#74b9ff;">
+    <div id="particles-bubble" class="particles"></div>
     <div class="container">
         <div class="heading-text text-light text-center">
-
+            <h4 class="fw-600" style="text-shadow: 2px 2px black;">Dokumentasi</h4>
         </div>
     </div>
 </section>
 <!-- end: Particle 1 -->
 <div class="container">
-    <h2 class="text-center mt-3">Dokumentasi</h2>
-    <div class="row">
+    <!-- <h2 class="text-center mt-3">Dokumentasi</h2> -->
+    <div class="row mt-4">
         <div class="content col-lg-12">
             <div data-lightbox="gallery" class="row">
                 <div class="col-lg-4">

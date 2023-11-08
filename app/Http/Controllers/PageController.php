@@ -17,6 +17,16 @@ class PageController extends Controller
         return view('pages.pengurus');
     }
 
+    function dkm()
+    {
+        return view('pages.dkm');
+    }
+
+    function okumene()
+    {
+        return view('pages.okumene');
+    }
+
     function adart()
     {
         return view('pages.adart');

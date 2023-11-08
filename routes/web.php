@@ -21,6 +21,8 @@ use App\Http\Controllers\GalleryController;
 Route::get('/', [PageController::class, 'index'])->name('index')->middleware('guest');
 
 Route::get('/paguyuban/pengurus', [PageController::class, 'pengurus'])->name('pengurus')->middleware('guest');
+Route::get('/paguyuban/dkm', [PageController::class, 'dkm'])->name('dkm')->middleware('guest');
+Route::get('/paguyuban/okumene', [PageController::class, 'okumene'])->name('okumene')->middleware('guest');
 Route::get('/paguyuban/adart', [PageController::class, 'adart'])->name('adart')->middleware('guest');
 Route::get('/paguyuban/programKerja', [PageController::class, 'programKerja'])->name('programKerja')->middleware('guest');
 Route::get('/paguyuban/dokumentasi', [PageController::class, 'dokumentasi'])->name('dokumentasi')->middleware('guest');

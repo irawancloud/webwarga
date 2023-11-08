@@ -1,5 +1,5 @@
 @section('title')
-    Anggaran Dasar dan Rumah Tangga
+    Anggaran Dasar dan Rumah Tangga Paguyuban
 @endsection
 @extends('templates.app')
 @section('content')
@@ -20,7 +20,7 @@
             <div class="content col-lg-12">
                 <div class="row">
                     <div class="col-lg-12 mb-4">
-                        <h2 class="text-center mb-2">ANGGARAN DASAR & ANGGARAN RUMAH TANGGA</h2>
+                        <h3 class="text-center mb-2">ANGGARAN DASAR & ANGGARAN RUMAH TANGGA PAGUYUBAN</h3>
                     </div>
                     <div class="col-lg-12">
                         <div class="card">

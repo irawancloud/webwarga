@@ -3,15 +3,23 @@ Beranda
 @endsection
 @extends('templates.app')
 @section('content')
-<section class="fullscreen" data-bg-parallax="{{ asset('assets/images/slider/unsplash2.jpg') }}">
-    <div class="container container-fullscreen">
-        <div class="text-middle text-center">
-            <h1 class="text-uppercase text-md text-dark" data-animate="fadeInUp">Tenjo City 3 Residence</h1>
-            <p class="lead text-dark " data-animate="fadeInUp" data-animate-delay="600">Where Dreams Do Come True</p>
+<!-- Inspiro Slider -->
+<div id="slider" class="inspiro-slider slider-fullscreen dots-creative" data-fade="true">
+    <!-- Slide 2 -->
+    <div class="slide" data-bg-video="{{ asset('assets/images/slider/tc3-all.mp4') }}">
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <div class="slide-captions text-start text-light">
+                <!-- Captions -->
+                <h1 style="text-shadow: 2px 2px black;">Tenjo City 3 Residence</h1>
+                <p class="text-small" style="text-shadow: 2px 2px black;">Where Dreams Do Come True</p>
+                <!-- end: Captions -->
+            </div>
         </div>
     </div>
-</section>
-<!-- end: Header -->
+    <!-- end: Slide 2 -->
+</div>
+<!--end: Inspiro Slider -->
 <!-- About Us -->
 <section class="fullscreen" data-bg-parallax="">
     <div class="bg-overlay" data-style="5"></div>
@@ -22,7 +30,7 @@ Beranda
             <div data-animate="fadeInLeft" data-animate-delay="50">
                 <div class="text-middle text-left">
                     <div class="heading-text text-light col-lg-6 left">
-                        <h4 class="fw-800"><strong>Paguyuban TC3</strong></h4>
+                        <h4 class="fw-800"><strong>Paguyuban TCR3</strong></h4>
                         <p style="text-align:justify">Untuk mewujudkan kerukunan dan kekompakan serta mengukuhkan tali
                             persaudaraan dan
                             silaturahmi antara warga Tenjo City Residence 3 dengan lingkungan sekitarnya dan dengan
@@ -75,12 +83,7 @@ Beranda
 <section>
     <div class="container">
         <div class="heading-text heading-section text-center">
-            <h2>Susunan Pengurus</h2>
-            <p>
-                <strong>
-                    Bahu membahu menyatukan energi untuk kepentigan warga, membangun lingkungan sekitar.
-                </strong>
-            </p>
+            <h4 class="text-decoration-underline">Paguyuban Periode 2023 - 2025</h4>
         </div>
         <div class="row team-members">
             <div class="col-lg-4">
