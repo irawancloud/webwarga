@@ -4,11 +4,11 @@ Susunan Pengurus DKM
 @extends('templates.app')
 @section('content')
 <!-- Particle 1 -->
-<section class="background-colored">
+<section style="background-color:#00BF63;">
     <div id="particles-dots" class="particles"></div>
     <div class="container">
         <div class="heading-text text-light text-center">
-            <h4 class="fw-600" style="text-shadow: 2px 2px black;">Dewan Kemakmuran Masjid</h4>
+            <h4 class="fw-600" style="text-shadow: 2px 2px black;">Dewan Kemakmuran Musholla</h4>
         </div>
     </div>
 </section>
@@ -17,7 +17,7 @@ Susunan Pengurus DKM
     <div class="container">
         <div class="row">
             <div class="col d-flex justify-content-center">
-                <img class="img-fluid" src="{{ asset('assets/images/pages/struktur paguyuban.png') }}" alt="struktur-organisasi" width="750px">
+                <img class="img-fluid" src="{{ asset('assets/images/pages/struktur dkm.png') }}" alt="struktur-organisasi" width="750px">
             </div>
         </div>
     </div>

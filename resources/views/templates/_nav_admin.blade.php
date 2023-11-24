@@ -6,6 +6,7 @@
                 <li><a href="{{ route('home') }}">Home</a></li>
                 <li><a href="{{ route('post.index') }}">Blog</a></li>
                 <li><a href="{{ route('imageGallery.index') }}">Gallery</a></li>
+                <li><a href="{{ route('seller.index') }}">Seller</a></li>
                 <li>
                     <form action="/logout" method="post">
                         @csrf

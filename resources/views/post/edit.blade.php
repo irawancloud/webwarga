@@ -51,7 +51,7 @@ Edit Article
                             </div>
                             <div class="form-group">
                                 <input type="submit" class="btn btn-primary" value="Post">
-                                <a href="{{ route('dashboard') }}" class="btn btn-danger">Kembali</a>
+                                <a href="{{ route('home') }}" class="btn btn-danger">Kembali</a>
                             </div>
 
                         </form>

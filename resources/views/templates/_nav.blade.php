@@ -6,14 +6,15 @@
                 <li class="dropdown"><a href="#">Organisasi</a>
                     <ul class="dropdown-menu">
                         <li><a href="{{ route('pengurus') }}">Pengurus Paguyuban</a></li>
-                        <li><a href="#">Pengurus DKM</a></li>
-                        <li><a href="#">Pengurus Okumene</a></li>
+                        <li><a href="{{ route('dkm') }}">Pengurus DKM</a></li>
+                        <li><a href="{{ route('oikumene') }}">Pengurus Oikumene</a></li>
                         <li><a href="#">AD ART Paguyuban</a></li>
                         <li><a href="#">Program Kerja</a></li>
                     </ul>
                 </li>
                 <li><a href="{{ route('dokumentasi') }}">Dokumentasi</a></li>
                 <li><a href="{{ route('galeri') }}">Gallery</a></li>
+                <li><a href="{{ route('umkm') }}">UMKM</a></li>
                 <li><a href="{{ route('blog') }}">Blog</a></li>
                 <li><a href="{{ route('kontak') }}">Kontak</a></li>
                 <li>

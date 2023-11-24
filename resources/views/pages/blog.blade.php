@@ -3,17 +3,11 @@ Blog Warga
 @endsection
 @extends('templates.app')
 @section('content')
-<section id="page-title">
+<section class="background-colored">
+    <div id="particles-dots" class="particles"></div>
     <div class="container">
-        <div class="page-title">
-            <h1>Blog Warga Tenjo City Residence 3</h1>
-        </div>
-        <div class="breadcrumb">
-            <ul>
-                <li><a href="#">Home</a> </li>
-                <li><a href="#">Shortcodes</a> </li>
-                <li class="active"><a href="#">Particles</a> </li>
-            </ul>
+        <div class="heading-text text-light text-center">
+            <h4 class="fw-600" style="text-shadow: 2px 2px black;">Blog Warga Tenjo City Residence 3</h4>
         </div>
     </div>
 </section>

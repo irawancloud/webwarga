@@ -7,12 +7,6 @@ Posting Blog
     <div class="container">
         <!-- DataTable -->
         <div class="row mb-3">
-            @if (session('success'))
-            <div role="alert" class="alert alert-success alert-dismissible">
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"> </button>
-                <strong><i class="fa fa-info-circle"></i> {{ session('success') }}</strong>
-            </div>
-            @endif
             <div class="col-lg-6">
                 <h4>Daftar Posting Blog</h4>
             </div>

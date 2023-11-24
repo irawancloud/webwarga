@@ -22,9 +22,9 @@ class PageController extends Controller
         return view('pages.dkm');
     }
 
-    function okumene()
+    function oikumene()
     {
-        return view('pages.okumene');
+        return view('pages.oikumene');
     }
 
     function adart()
@@ -54,6 +54,21 @@ class PageController extends Controller
     function kontak()
     {
         return view('pages.kontak');
+    }
+
+    function umkm(){
+        $data = DB::table('sellers')->orderBy('id', 'desc')->paginate(6);
+        return view('pages.umkm', [
+            'data'  => $data,
+        ]);
+    }
+
+    function umkmDetail($slug){
+        $data = DB::table('sellers')->where('slug', '=', $slug)->get();
+
+        return view('pages.umkmDetail', [
+            'data' => $data,
+        ]);
     }
 
     function blog()

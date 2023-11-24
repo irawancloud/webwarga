@@ -4,8 +4,8 @@ kontak
 @extends('templates.app')
 @section('content')
 <!-- Particle 1 -->
-<section class="background-colored">
-    <div id="particles-dots" class="particles"></div>
+<section style="background-color:#1B9CFC;">
+    <div id="particles-bubble" class="particles"></div>
     <div class="container">
         <div class="heading-text text-light text-center">
             <h4 class="fw-600" style="text-shadow: 2px 2px black;">Hubungi Kami</h4>

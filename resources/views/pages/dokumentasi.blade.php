@@ -3,7 +3,7 @@ Dokumentasi Warga
 @endsection
 @extends('templates.app')
 @section('content')
-<section style="background-color:#74b9ff;">
+<section style="background-color:#1B9CFC;">
     <div id="particles-bubble" class="particles"></div>
     <div class="container">
         <div class="heading-text text-light text-center">
