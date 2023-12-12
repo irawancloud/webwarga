@@ -88,7 +88,7 @@ class PageController extends Controller
 
         $prev = DB::table('blogs')->where('blogs.id', '=', $idPrev)->get();
         $next = DB::table('blogs')->where('blogs.id', '=', $idNext)->get();
-        $recent = DB::table('blogs')->limit(5)->get();
+        $recent = DB::table('blogs')->orderByDesc('id')->limit(6)->get();
         return view('pages.blogDetail', [
             'data' => $data,
             'prev' => $prev,

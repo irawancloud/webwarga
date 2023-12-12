@@ -44,7 +44,7 @@ Blog Warga
                                 Comments</a></span>
                         {{-- <h2><a href="{{ route('portfolio.blogdetail', $item->slug) }}">{{ $item->blog_title }} --}}
                         </a></h2>
-                        <p>{!! Str::substr($item->article, 0, 100) !!} [.....]</p>
+                        <p>{!! Str::substr($item->article, 0, 200) !!} [.....]</p>
                         <a href="{{ route('blogDetail', $item->slug) }}" class="item-link">Read More
                             <i class="icon-chevron-right"></i></a>
                     </div>
