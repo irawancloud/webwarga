@@ -57,7 +57,7 @@ class PageController extends Controller
     }
 
     function umkm(){
-        $data = DB::table('sellers')->orderBy('id', 'desc')->paginate(6);
+        $data = DB::table('sellers')->orderBy('id', 'desc')->paginate(18);
         return view('pages.umkm', [
             'data'  => $data,
         ]);
@@ -73,7 +73,7 @@ class PageController extends Controller
 
     function blog()
     {
-        $artikel = DB::table('blogs')->orderBy('id', 'desc')->cursorPaginate(6);
+        $artikel = DB::table('blogs')->orderBy('id', 'desc')->cursorPaginate(12);
         return view('pages.blog', [
             'artikel' => $artikel
         ]);
