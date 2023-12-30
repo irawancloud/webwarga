@@ -58,6 +58,7 @@ class PageController extends Controller
 
     function umkm(){
         $data = DB::table('sellers')->orderBy('id', 'desc')->paginate(18);
+        // dd($data);
         return view('pages.umkm', [
             'data'  => $data,
         ]);

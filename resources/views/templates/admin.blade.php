@@ -59,13 +59,13 @@
         @yield('content')
 
         <!-- end: Page Content -->
-        <footer id="footer">
+        <!-- <footer id="footer">
             <div class="copyright-content">
-                <div class="container">
+                <div class="container ">
                     <div class="copyright-text text-center">&copy; {{ date('Y') }} <a href="http://www.wargatcr3.or.id" target="_blank" rel="noopener"> Tenjo City Residence 3</a> </div>
                 </div>
             </div>
-        </footer>
+        </footer> -->
     </div>
     <!-- end: Body Inner -->
     <!-- Scroll top -->
@@ -129,7 +129,7 @@
                 console.error(error);
             });
     </script>
-   
+
 </body>
 
 </html>

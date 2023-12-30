@@ -20,9 +20,11 @@
                         <h4>Navigasi</h4>
                         <ul class="list">
                             <li><a href="{{ route('index') }}">Beranda</a></li>
-                            <li><a href="{{ route('pengurus') }}">Pengurus</a></li>
-                            <li><a href="{{ route('adart') }}">AD ART</a></li>
-                            <li><a href="{{ route('programKerja') }}">Program Kerja</a></li>
+                            <li><a href="{{ route('pengurus') }}">Pengurus Paguyuban</a></li>
+                            <li><a href="{{ route('dkm') }}">Pengurus DKM</a></li>
+                            <li><a href="{{ route('oikumene') }}">Pengurus Oikumene</a></li>
+                            <!-- <li><a href="{{ route('adart') }}">AD ART</a></li> -->
+                            <!-- <li><a href="{{ route('programKerja') }}">Program Kerja</a></li> -->
                             <li><a href="{{ route('dokumentasi') }}">Dokumentasi</a></li>
                         </ul>
                     </div>
@@ -33,6 +35,7 @@
                         <h4>Navigasi</h4>
                         <ul class="list">
                             <li><a href="{{ route('galeri') }}">Gallery</a></li>
+                            <li><a href="{{ route('umkm') }}">UMKM</a></li>
                             <li><a href="{{ route('blog') }}">Blog</a></li>
                             <li><a href="{{ route('kontak') }}">Kontak</a></li>
                         </ul>

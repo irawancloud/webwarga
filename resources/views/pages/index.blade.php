@@ -11,7 +11,7 @@ Beranda
         <div class="container">
             <div class="slide-captions text-start text-light">
                 <!-- Captions -->
-                <h1 style="text-shadow: 2px 2px black;">Tenjo City 3 Residence</h1>
+                <h1 style="text-shadow: 2px 2px black;">Tenjo City Residence 3</h1>
                 <p class="text-small" style="text-shadow: 2px 2px black;">Where Dreams Do Come True</p>
                 <!-- end: Captions -->
             </div>

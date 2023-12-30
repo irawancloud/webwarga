@@ -44,8 +44,11 @@
                     <!--Logo-->
                     <div id="logo">
                         <a href="{{ route('index') }}">
-                            <span class="logo-default"><img src="{{ asset('assets/images/logos/logo_paguyuban.png') }}" alt="logo" width="60px"></span>
-                            <span class="logo-dark"><img src="{{ asset('assets/images/logos/logo_paguyuban.png') }}" alt="logo" width="60px"></span>
+                            <span class="logo-default">
+                                <img src="{{ asset('assets/images/logos/logo_paguyuban.png') }}" alt="logo" width="60px">
+                            </span>
+                            <span class="logo-dark"><img src="{{ asset('assets/images/logos/logo_paguyuban.png') }}" alt="logo" width="60px">
+                            </span>
                         </a>
                     </div>
                     <!--End: Logo-->
