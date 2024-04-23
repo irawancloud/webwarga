@@ -8,8 +8,8 @@
                         <li><a href="{{ route('pengurus') }}">Pengurus Paguyuban</a></li>
                         <li><a href="{{ route('dkm') }}">Pengurus DKM</a></li>
                         <li><a href="{{ route('oikumene') }}">Pengurus Oikumene</a></li>
-                        <!-- <li><a href="#">AD ART Paguyuban</a></li>
-                        <li><a href="#">Program Kerja</a></li> -->
+                        <li><a href="{{ route('laporan') }}">Laporan Keuangan Paguyuban</a></li>
+                        <!-- <li><a href="#">Program Kerja</a></li> -->
                     </ul>
                 </li>
                 <li><a href="{{ route('dokumentasi') }}">Dokumentasi</a></li>

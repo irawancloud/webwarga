@@ -26,6 +26,9 @@ Dokumentasi Warga
                 <div class="col-lg-4">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/t58LQYZKxHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
+                <div class="col-lg-4">
+                    <iframe width="560" height="315" src="{{ asset('upload/video_perbaikan_plafon_mushola.mp4') }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </div>

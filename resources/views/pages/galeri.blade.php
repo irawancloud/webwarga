@@ -22,7 +22,7 @@ Galeri Warga
                     <div class="col-lg-4">
                         <div class="grid-item">
                             <div class="grid-item-wrap">
-                                <div class="grid-image" style="height:200px !important"> <img alt="Image Lightbox" class="rounded" src="/upload/{{ $item->image_name }}" />
+                                <div class="grid-image" style="max-height: 200px !important; overflow:auto"> <img alt="Image Lightbox" class="rounded" src="/upload/{{ $item->image_name }}" />
                                 </div>
                                 <div class="grid-description">
                                     <a data-lightbox="image" href="/upload/{{ $item->image_name }}" class="btn btn-light btn-roundeded">Zoom</a>
@@ -43,11 +43,4 @@ Galeri Warga
     </div>
 </div>
 </div>
-<!-- <section id="page-content">
-    <div class="container">
-        <h2 class="text-center">Gallery Warga</h2>
-        <p></p>
-    </div>
-</section> -->
-<!-- end: Content -->
 @endsection

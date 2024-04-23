@@ -22,6 +22,7 @@ use App\Http\Controllers\SellerController;
 Route::get('/', [PageController::class, 'index'])->name('index')->middleware('guest');
 
 Route::get('/paguyuban/pengurus', [PageController::class, 'pengurus'])->name('pengurus')->middleware('guest');
+Route::get('/paguyuban/laporan', [PageController::class, 'laporan'])->name('laporan')->middleware('guest');
 Route::get('/paguyuban/dkm', [PageController::class, 'dkm'])->name('dkm')->middleware('guest');
 Route::get('/paguyuban/oikumene', [PageController::class, 'oikumene'])->name('oikumene')->middleware('guest');
 Route::get('/paguyuban/adart', [PageController::class, 'adart'])->name('adart')->middleware('guest');

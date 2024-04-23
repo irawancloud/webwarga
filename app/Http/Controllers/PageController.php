@@ -39,7 +39,6 @@ class PageController extends Controller
 
     function galeri()
     {
-        // return view('pages.galeri');
         $gallery = DB::table('galleries')->orderBy('id', 'desc')->get();
         return view('pages.galeri', [
             'gallery' => $gallery

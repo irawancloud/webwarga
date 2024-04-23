@@ -17,7 +17,7 @@ Susunan Pengurus Paguyuban
     <div class="container">
         <div class="row">
             <div class="col d-flex justify-content-center">
-                <img class="img-fluid" src="{{ asset('assets/images/pages/sp-update-22112023.png') }}" alt="struktur-organisasi" width="750px">
+                <img class="img-fluid" src="{{ asset('assets/images/pages/struktur paguyuban.png') }}" alt="struktur-organisasi" width="750px">
             </div>
         </div>
         <!-- <img class="img-fluid" src="{{ asset('assets/images/pages/struktur-organisasi.jpg') }}" alt="struktur-organisasi"> -->
