@@ -28,6 +28,7 @@ Route::get('/paguyuban/oikumene', [PageController::class, 'oikumene'])->name('oi
 Route::get('/paguyuban/adart', [PageController::class, 'adart'])->name('adart')->middleware('guest');
 Route::get('/paguyuban/programKerja', [PageController::class, 'programKerja'])->name('programKerja')->middleware('guest');
 Route::get('/paguyuban/dokumentasi', [PageController::class, 'dokumentasi'])->name('dokumentasi')->middleware('guest');
+Route::get('/paguyuban/laporan', [PageController::class, 'laporan'])->name('laporan')->middleware('guest');
 Route::get('/galeri', [PageController::class, 'galeri'])->name('galeri')->middleware('guest');
 Route::get('/blog', [PageController::class, 'blog'])->name('blog')->middleware('guest');
 Route::get('/blogDetail/{slug}', [PageController::class, 'blogDetail'])->name('blogDetail')->middleware('guest');

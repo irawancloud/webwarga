@@ -15,29 +15,7 @@ Laporan
     <div class="row">
         <div class="content col-lg-12">
             <div data-animate="fadeInRight" data-animate-delay="50">
-                <!--Single image lightbox -->
-                @if ($gallery->count())
-                <div class=" row">
-                    @foreach ($gallery as $item)
-                    <div class="col-lg-4">
-                        <div class="grid-item">
-                            <div class="grid-item-wrap">
-                                <div class="grid-image" style="height:200px !important"> <img alt="Image Lightbox" class="rounded" src="/upload/{{ $item->image_name }}" />
-                                </div>
-                                <div class="grid-description">
-                                    <a data-lightbox="image" href="/upload/{{ $item->image_name }}" class="btn btn-light btn-roundeded">Zoom</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    @endforeach
-                </div>
-                @else
-                <div role="alert" class="alert alert-warning alert-dismissible">
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"> </button>
-                    <strong><i class="fa fa-warning"></i> Belum ada image
-                </div>
-                @endif
+               <h1>Laporan</h1>
             </div>
         </div>
     </div>

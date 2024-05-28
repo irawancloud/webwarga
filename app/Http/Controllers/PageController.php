@@ -27,6 +27,11 @@ class PageController extends Controller
         return view('pages.oikumene');
     }
 
+    function laporan()
+    {
+        return view('pages.laporan');
+    }
+
     function adart()
     {
         return view('pages.adart');

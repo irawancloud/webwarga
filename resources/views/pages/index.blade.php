@@ -91,7 +91,7 @@ Beranda
                     <div class="team-member">
                         <div class="team-desc">
                             <h3>Andi Hakim, ST.,MT.</h3>
-                            <span>Ketua Paguyuban <br> Tenjo City Residence 3</span>
+                            <span>Ketua <br> Tenjo City Residence 3</span>
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@ Beranda
                     <div class="team-member">
                         <div class="team-desc">
                             <h3>Agung Wicaksono, S.Kom</h3>
-                            <span>Sekretaris Paguyuban <br> Tenjo City Residence 3</span>
+                            <span>Sekretaris <br> Tenjo City Residence 3</span>
                         </div>
                     </div>
                 </div>
@@ -111,39 +111,49 @@ Beranda
                     <div class="team-member">
                         <div class="team-desc">
                             <h3>David Prakoso Matindas, S.Ak</h3>
-                            <span>Bendahara 1 Paguyuban <br> Tenjo City Residence 3</span>
+                            <span>Bendahara 1 <br> Tenjo City Residence 3</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row team-members">
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div data-animate="fadeInLeft" data-animate-delay="75">
                     <div class="team-member">
                         <div class="team-desc">
                             <h3>Winarno</h3>
-                            <span>Bendahara 2 Paguyuban <br> Tenjo City Residence 3</span>
+                            <span>Bendahara 2 <br> Tenjo City Residence 3</span>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div data-animate="fadeInLeft" data-animate-delay="75">
                     <div class="team-member">
                         <div class="team-desc">
                             <h3>Irawan</h3>
-                            <span>Pusat Informasi Paguyuban <br> Tenjo City Residence 3</span>
+                            <span>Pusat Informasi <br> Tenjo City Residence 3</span>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div data-animate="fadeInLeft" data-animate-delay="75">
                     <div class="team-member">
                         <div class="team-desc">
-                            <h3>Jimmy Coy Parulian Sinaga</h3>
-                            <span>Manajemen Asset Paguyuban <br> Tenjo City Residence 3</span>
+                            <h3>Galang Rindu Alam</h3>
+                            <span>Manajemen Asset & Prasarana<br> Tenjo City Residence 3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div data-animate="fadeInLeft" data-animate-delay="75">
+                    <div class="team-member">
+                        <div class="team-desc">
+                            <h3>Rifan</h3>
+                            <span>Kepemudaan dan Olah Raga <br> Tenjo City Residence 3</span>
                         </div>
                     </div>
                 </div>
