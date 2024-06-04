@@ -142,7 +142,7 @@ Beranda
                 <div data-animate="fadeInLeft" data-animate-delay="75">
                     <div class="team-member">
                         <div class="team-desc">
-                            <h3>Galang Rindu Alam</h3>
+                            <h3>Galang Rindu Alam, S.H</h3>
                             <span>Manajemen Asset & Prasarana<br> Tenjo City Residence 3</span>
                         </div>
                     </div>
