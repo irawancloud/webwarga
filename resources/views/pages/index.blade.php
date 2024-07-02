@@ -3,22 +3,41 @@ Beranda
 @endsection
 @extends('templates.app')
 @section('content')
+<style>
+    @media (max-width: 400px) {
+        .slider-image {
+            background-size: cover;
+            /* atau 'contain' */
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+</style>
 <!-- Inspiro Slider -->
-<div id="slider" class="inspiro-slider slider-fullscreen dots-creative" data-fade="true">
-    <!-- Slide 2 -->
-    <div class="slide" data-bg-video="{{ asset('assets/images/slider/tc3-all.mp4') }}">
+<div id="slider" class="inspiro-slider slider-fullscreen dots-creative" data-height-xs="360" style="background-repeat: no-repeat">
+    <!-- Slide 1 -->
+    <div class="slide kenburns " data-bg-parallax="{{ asset('assets/images/slider/unsplash_home.jpg') }}">
+
+    </div>
+    <!-- end: Slide 1 -->
+</div>
+<!--end: Inspiro Slider -->
+<!-- Inspiro Slider -->
+<!-- <div id="slider" class="inspiro-slider slider-fullscreen dots-creative" data-fade="true"> -->
+<!-- Slide 2 -->
+<!-- <div class="slide" data-bg-video="{{ url('assets/images/slider/tc3-all.mp4') }}">
         <div class="bg-overlay"></div>
         <div class="container">
-            <div class="slide-captions text-start text-light">
-                <!-- Captions -->
-                <h1 style="text-shadow: 2px 2px black;">Tenjo City Residence 3</h1>
-                <p class="text-small" style="text-shadow: 2px 2px black;">Where Dreams Do Come True</p>
-                <!-- end: Captions -->
-            </div>
+            <div class="slide-captions text-start text-light"> -->
+<!-- Captions -->
+<!-- <h1 style="text-shadow: 2px 2px black;">Tenjo City Residence 3</h1>
+                <p class="text-small" style="text-shadow: 2px 2px black;">Where Dreams Do Come True</p> -->
+<!-- end: Captions -->
+<!-- </div>
         </div>
-    </div>
-    <!-- end: Slide 2 -->
-</div>
+    </div> -->
+<!-- end: Slide 2 -->
+<!-- </div> -->
 <!--end: Inspiro Slider -->
 <!-- About Us -->
 <section class="fullscreen" data-bg-parallax="">
